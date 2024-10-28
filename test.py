@@ -20,10 +20,10 @@ def fill_directory_with_files(directory, percentage):
     #
     #
     while current_size < target_size and target_size-current_size > 1024: # заполняем текстовыми файлами
-        print(f"#Fillin' with a bunch of useless files{file_counter}#")
-        print(current_size)
-        print(target_size)
-        print(total_size)
+        #print(f"#Fillin' with a bunch of useless files{file_counter}#")
+        #print(current_size)
+        #print(target_size)
+        #print(total_size)
         filename = f'file_{file_counter}.txt'
         filepath = os.path.join(directory, filename)
         file_counter += 1
